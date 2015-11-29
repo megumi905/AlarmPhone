@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src * 'unsafe-inline'; script-src * 'unsafe-inline' 'unsafe-eval'">
+    <script src="components/loader.js"></script>
+    <link rel="stylesheet" href="components/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+        <script src="js/app.js"></script>
+    <script>
+        ons.bootstrap();
+    </script>
+</head>
+<body>
+<div id="wrapper">
+<br />
+<br />
+    <center><font size="+4" color="#ffffff" face="Comic Sans MS">Alarm Phone</font>
+    </center>
+    <center><p>Wake up!誰かに電話をかけるよ</p></center>
+        <!--<img src="images/logo-monaca.png" style="position: absolute; left: 40px; top: 40px;" />-->
+        <div id="container">
+            <img src="images/figure-0.png" class="figure" /> 
+            <img src="images/figure-0.png" class="figure" />
+            <img src="images/figure-colon.png" class="colon" />
+            <img src="images/figure-0.png" class="figure" />
+            <img src="images/figure-0.png" class="figure" />
+            <img src="images/figure-colon.png" class="colon" />
+            <img src="images/figure-0.png" class="figure" />
+            <img src="images/figure-0.png" class="figure" />
+
+            <div id="date"></div>
+        </div>
+    </div>
+
+    <ons-tabbar var="tabbar">
+        <ons-tabbar-item
+            icon="fa-thumbs-o-up"
+            label="Wake Up!"
+            page="navigator.html"
+            <!--active="true"-->
+            </ons-tabbar-item>
+        <ons-tabbar-item
+            icon="fa-clock-o"
+            label="アラームセット"
+            page="alarm.html"></ons-tabbar-item>
+        <ons-tabbar-item
+            icon="comments"
+            label="Chat"
+            page="chat.html"
+            ></ons-tabbar-item>
+        <ons-tabbar-item
+            icon="fa-users"
+            label="友達追加"
+            page="add.html"></ons-tabbar-item>
+        
+    </ons-tabbar>
+
+</body>
+</html>
